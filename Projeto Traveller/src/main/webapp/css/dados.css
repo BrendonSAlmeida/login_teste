@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+    
+main{
+    max-width: 1100px;
+    margin: 7vh auto;
+    background-image: linear-gradient(90deg, rgba(146,37,170,1) 0%, rgba(68,5,122,1) 100%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    
+}
+
+                            /* INICIO DO HEADER  */
+
+header{
+    background-color: hsl(0, 0%, 0%);
+    height: 10vh;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul{
+    list-style: none;
+    
+}
+#menu-h ul li a {
+    margin-top: 0.3%;
+    color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+#menu-h ul li:last-child a{
+    float: right;
+    margin: -0.0% 1% 0px 0px;
+}
+.li-logo{
+    font-size: 2.3em;
+    font-weight: bolder;
+    
+}
+
+li span{
+    color: #9225aa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.li-logo:hover{
+    text-shadow: 0px 0px 8px #ffffff77;
+    
+}
+                            /* FIM DO HEADER  */
+
+
+                            /* MAIN CONTENT */
+
+main{
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 2px #ad5bc488;
+}
+
+h1{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    color: #fff;
+}
+
+.imagem_usuario {
+    max-width: 20%;
+    max-height: 25vh;
+    margin: 0% auto;
+    background: linear-gradient(90deg, #cb8fff 0%, #7a0dda 100%);
+    border-radius: 17%;
+
+}
+
+.form-group{
+    display: inline-block;
+    width: 49%;
+    margin:5vh 0px 0px 5px;
+    
+    color: #fafafa;
+    font-size: large;
+    font-weight: 500;
+}
+
+.form-control, select{
+    width: 100%;
+    height: 6vh;
+    border-radius: 21px;
+    padding: 8px;
+    background-color: #dddddd;
+}
+input, select{
+    font-size: 1em;
+}
+option{
+    width: 49%;
+    height: 6vh;
+}
+.button-finalizar{
+    width: 200px;
+    height: 40px;
+    margin: 3% auto;
+    
+}
+.finalizar{
+    width: 120%;
+    height: 120%;
+    margin: -10%;
+    background-color: #fff;
+}
+
+
+            /* Hover  */
+
+.finalizar:hover {
+    cursor: pointer;
+    
+}
+footer{
+    
+    width: 100%;
+    height: 5vh;
+    background-color: hsl(0, 0%, 0%);
+}
+footer p{
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    color: #fff;
+}
+
+.span-f{
+    color: #fcfcfc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+                            /* FIM DO MAIN CONTENT */
+
+@media screen and (max-width: 768px){
+    #menu-h ul li:last-child a{
+        margin: -2% 1% 0px 0px;
+    }
+	.form-group{
+        display: block;
+        width: 95%;
+    }
+    .imagem_usuario {
+        width: 90vw;
+        height: 15vh;
+        margin: 0% auto;
+        border-radius: 50%;
+    
+    }
+
+}
